@@ -1,0 +1,17 @@
+Time: 657.5476019382477
+
+Number of clusters: 8
+Cluster 0: 25718 instances 
+Cluster 1: 11 instances 
+Cluster 2: 12 instances 
+Cluster 3: 24 instances 
+Cluster 4: 16 instances 
+Cluster 5: 35 instances 
+Cluster 6: 175 instances 
+Cluster 7: 60 instances 
+
+Metrics:
+Davies Bouldin Score: 1.7249778219283067
+Silhouette Coefficient: -0.3372661462810156
+
+{'affinity': 'nearest_neighbors', 'assign_labels': 'kmeans', 'coef0': 1, 'degree': 3, 'eigen_solver': None, 'eigen_tol': 0.0, 'gamma': 1.0, 'kernel_params': None, 'n_clusters': 8, 'n_components': None, 'n_init': 5, 'n_jobs': None, 'n_neighbors': 10, 'random_state': None}

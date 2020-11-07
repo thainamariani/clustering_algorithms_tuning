@@ -1,0 +1,18 @@
+Time: 0.14961791038513184
+
+Number of clusters: 2
+Cluster 0: 25355 instances 
+Cluster 1: 696 instances 
+
+Centroids:
+Cluster 0: [1.35510333 0.14805174 0.31704528 0.28419309 0.06708471 0.06771573
+ 0.35952043 0.82623442 0.21900142]
+Cluster 1: [1.00719424e-02 1.43884892e-03 1.12230216e-01 8.63309353e-03
+ 4.31654676e-03 2.87769784e-03 1.66143885e+01 8.63309353e-03
+ 1.43884892e-03]
+
+Metrics:
+Davies Bouldin Score: 0.5789700858345151
+Silhouette Coefficient: 0.7259869517641292
+
+{'algorithm': 'auto', 'copy_x': True, 'init': 'k-means++', 'max_iter': 100, 'n_clusters': 2, 'n_init': 5, 'n_jobs': 'deprecated', 'precompute_distances': 'deprecated', 'random_state': None, 'tol': 0.0001, 'verbose': 0}
