@@ -1,18 +1,8 @@
-PATH = 'input/info_by_classes/number_refactorings_by_class.csv'
+PATH = 'input/example.csv'
 
 #columns to be considered by the algorithm
 COLUMNS = ['EM', 'ES', 'MMT', 'MMS', 'PDT', 'PDS', 'PUT', 'PUS', 'IM']
 
-#names to appear optional
-COLUMNS_FORMATTED = {'EM': 'Extract Method',
-                   'ES':'Extract SuperClass',
-                   'MMT':'Move Method - Target',
-                   'MMS':'Move Method - Source',
-                   'PDT':'Push Down Method - Target',
-                   'PDS':'Push Down Method - Source',
-                   'PUT':'Pull Up Method - Target',
-                   'PUS':'Pull Up Method - Source',
-                   'IM':'Inline Method'}
 SPARSE_DATA = True
 THREADS = 5
 
